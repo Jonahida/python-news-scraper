@@ -1,0 +1,23 @@
+{
+  "webui_server_url": "http://127.0.0.1:7861",
+  "ignored_sections": [
+    "Primo piano", "Repubblica 50", "Sanremo 75", "Life", "Magazine",
+    "Focus", "Pianeta economia", "Podcast", "I Parlamenti buffi",
+    "Top Video", "Il mondo Repubblica", "Leggi Repubblica", "Video",
+    "Audioarticoli", "Iniziative speciali", "Social", "App",
+    "Supplementi Repubblica", "Gedi News Network", "Quotidiani locali",
+    "Periodici", "Radio", "Iniziative Editoriali", "Partnership"
+  ],
+  "scraping_rules": {
+    "repubblica.it": ["h1", "h2", "h3"],
+    "corriere.it": [{"tag": "h4", "class": "title-art-hp"}]
+  },
+  "models": {
+    "gpt2": "gpt2",
+    "translation": {
+      "source_lang": "it",
+      "target_lang": "en"
+    }
+  }
+}
+

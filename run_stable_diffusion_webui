@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source ~/stable-diffusion-webui/env39/bin/activate
+python3 ~/stable-diffusion-webui/launch.py \
+  --skip-torch-cuda-test \
+  --lowvram \
+  --nowebui \
+  --api
